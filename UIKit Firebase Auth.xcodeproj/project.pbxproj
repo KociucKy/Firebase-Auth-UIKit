@@ -17,6 +17,7 @@
 		88BBBE9226F4D45800CC301D /* CreateAnAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE9126F4D45800CC301D /* CreateAnAccountVC.swift */; };
 		88BBBE9426F4D4AA00CC301D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE9326F4D4AA00CC301D /* Constants.swift */; };
 		88BBBE9626F4D6D600CC301D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88BBBE9526F4D6D600CC301D /* GoogleService-Info.plist */; };
+		88BBBE9826F4DAAA00CC301D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 88BBBE9726F4DAAA00CC301D /* Fonts */; };
 		A399C179EAF3460C60A246DA /* Pods_UIKit_Firebase_Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1CE74631CB9FF536AD0C4D /* Pods_UIKit_Firebase_Auth.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		88BBBE9126F4D45800CC301D /* CreateAnAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnAccountVC.swift; sourceTree = "<group>"; };
 		88BBBE9326F4D4AA00CC301D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		88BBBE9526F4D6D600CC301D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88BBBE9726F4DAAA00CC301D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		88BBBE8A26F4D14400CC301D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				88BBBE9726F4DAAA00CC301D /* Fonts */,
 				88BBBE7F26F4D0C700CC301D /* Assets.xcassets */,
 				88BBBE8426F4D0C800CC301D /* Info.plist */,
 				88BBBE9526F4D6D600CC301D /* GoogleService-Info.plist */,
@@ -203,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88BBBE9826F4DAAA00CC301D /* Fonts in Resources */,
 				88BBBE8326F4D0C700CC301D /* LaunchScreen.storyboard in Resources */,
 				88BBBE9626F4D6D600CC301D /* GoogleService-Info.plist in Resources */,
 				88BBBE8026F4D0C700CC301D /* Assets.xcassets in Resources */,
