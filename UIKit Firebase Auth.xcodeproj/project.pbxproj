@@ -18,6 +18,7 @@
 		88BBBE9426F4D4AA00CC301D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE9326F4D4AA00CC301D /* Constants.swift */; };
 		88BBBE9626F4D6D600CC301D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88BBBE9526F4D6D600CC301D /* GoogleService-Info.plist */; };
 		88BBBE9826F4DAAA00CC301D /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 88BBBE9726F4DAAA00CC301D /* Fonts */; };
+		88BBBE9A26F4DBD000CC301D /* ContentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BBBE9926F4DBD000CC301D /* ContentVC.swift */; };
 		A399C179EAF3460C60A246DA /* Pods_UIKit_Firebase_Auth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F1CE74631CB9FF536AD0C4D /* Pods_UIKit_Firebase_Auth.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		88BBBE9326F4D4AA00CC301D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		88BBBE9526F4D6D600CC301D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		88BBBE9726F4DAAA00CC301D /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		88BBBE9926F4DBD000CC301D /* ContentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				88BBBE7A26F4D0C600CC301D /* MainVC.swift */,
 				88BBBE8F26F4D44A00CC301D /* LoginVC.swift */,
 				88BBBE9126F4D45800CC301D /* CreateAnAccountVC.swift */,
+				88BBBE9926F4DBD000CC301D /* ContentVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				88BBBE7726F4D0C600CC301D /* AppDelegate.swift in Sources */,
 				88BBBE9026F4D44A00CC301D /* LoginVC.swift in Sources */,
 				88BBBE9226F4D45800CC301D /* CreateAnAccountVC.swift in Sources */,
+				88BBBE9A26F4DBD000CC301D /* ContentVC.swift in Sources */,
 				88BBBE7926F4D0C600CC301D /* SceneDelegate.swift in Sources */,
 				88BBBE9426F4D4AA00CC301D /* Constants.swift in Sources */,
 			);
