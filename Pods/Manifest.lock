@@ -1,5 +1,4 @@
 PODS:
-  - CLTypingLabel (0.4.0)
   - Firebase/Auth (8.1.1):
     - Firebase/CoreOnly
     - FirebaseAuth (~> 8.1.0)
@@ -47,12 +46,10 @@ PODS:
   - PromisesObjC (1.2.12)
 
 DEPENDENCIES:
-  - CLTypingLabel
   - Firebase/Auth
 
 SPEC REPOS:
   trunk:
-    - CLTypingLabel
     - Firebase
     - FirebaseAuth
     - FirebaseCore
@@ -64,7 +61,6 @@ SPEC REPOS:
     - PromisesObjC
 
 SPEC CHECKSUMS:
-  CLTypingLabel: 95a7d1faf7e3d1d952cd11cb0491d17d80c50934
   Firebase: 4bb49ae87756034cef870fa3c4006235eb46f475
   FirebaseAuth: e069ff5736fe9d5dcf61f36244bb1b1ce1897d17
   FirebaseCore: 389c4ce9a7cce4a7e25eb22326b4bee0050557b2
@@ -75,6 +71,6 @@ SPEC CHECKSUMS:
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 3113f7f76903778cf4a0586bd1ab89329a0b7b97
 
-PODFILE CHECKSUM: 4a0a66b1aa80df7fc103797772655db5edc66d6e
+PODFILE CHECKSUM: 2e6bcc3f98ab0dd47cacade71baaf4253a4e5285
 
 COCOAPODS: 1.11.0
