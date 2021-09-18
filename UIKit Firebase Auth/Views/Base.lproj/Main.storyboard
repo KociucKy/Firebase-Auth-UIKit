@@ -34,12 +34,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gyr-tE-f0J">
-                                <rect key="frame" x="168.5" y="684" width="77.5" height="78"/>
+                                <rect key="frame" x="133" y="637" width="148.5" height="125"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gao-5j-5Dg">
-                                        <rect key="frame" x="0.0" y="0.0" width="77.5" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gA6-SX-9IN">
+                                        <rect key="frame" x="0.0" y="0.0" width="148.5" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Login">
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign in with Google">
+                                            <backgroundConfiguration key="background" cornerRadius="12">
+                                                <color key="backgroundColor" name="BackgroundColor"/>
+                                            </backgroundConfiguration>
+                                            <color key="baseForegroundColor" name="TextColor"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gao-5j-5Dg">
+                                        <rect key="frame" x="0.0" y="47" width="148.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Sign in with email">
                                             <backgroundConfiguration key="background" cornerRadius="12">
                                                 <color key="backgroundColor" name="BackgroundColor"/>
                                             </backgroundConfiguration>
@@ -51,7 +61,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJn-zU-160">
-                                        <rect key="frame" x="0.0" y="47" width="77.5" height="31"/>
+                                        <rect key="frame" x="0.0" y="94" width="148.5" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Register">
                                             <backgroundConfiguration key="background" cornerRadius="12">
@@ -175,9 +185,11 @@
                                 <color key="textColor" name="TextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUW-Gc-X5z">
-                                <rect key="frame" x="171" y="696" width="73" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUW-Gc-X5z">
+                                <rect key="frame" x="157" y="711" width="100" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="UGa-oK-hPl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Log out">
                                     <backgroundConfiguration key="background">
@@ -185,6 +197,9 @@
                                     </backgroundConfiguration>
                                     <color key="baseForegroundColor" name="TextColor"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="logOutPressed:" destination="ma9-bh-8aq" eventType="touchUpInside" id="hlz-NX-cG9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xui-dV-hCl"/>
@@ -197,6 +212,8 @@
                             <constraint firstItem="d2K-aa-bRm" firstAttribute="leading" secondItem="LR4-SY-J2M" secondAttribute="leading" id="ctH-13-ORm"/>
                             <constraint firstAttribute="trailing" secondItem="d2K-aa-bRm" secondAttribute="trailing" id="mbA-go-jgf"/>
                             <constraint firstItem="0aE-xt-EJW" firstAttribute="leading" secondItem="LR4-SY-J2M" secondAttribute="leading" constant="8" id="qJo-2Z-1Z4"/>
+                            <constraint firstItem="LUW-Gc-X5z" firstAttribute="centerX" secondItem="0aE-xt-EJW" secondAttribute="centerX" id="s2C-wN-e28"/>
+                            <constraint firstItem="xui-dV-hCl" firstAttribute="bottom" secondItem="LUW-Gc-X5z" secondAttribute="bottom" constant="120" id="tG1-HL-294"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="e6u-zH-DOR"/>
