@@ -2,16 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.1070859429964-9gb596ofu195p4uhn33t4tmv94fds8a5</string>
+			</array>
+		</dict>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
 		<string>RobotoMono-VariableFont_wght.ttf</string>
 		<string>RobotoMono-Italic-VariableFont_wght.ttf</string>
-	</array>
-	<key>CFBundleDisplayName</key>
-	<string>Firebase Auth</string>
-	<key>UISupportedInterfaceOrientations</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

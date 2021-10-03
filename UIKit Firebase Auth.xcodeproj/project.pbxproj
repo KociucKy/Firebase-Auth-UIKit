@@ -161,6 +161,7 @@
 				88BBBE7026F4D0C600CC301D /* Frameworks */,
 				88BBBE7126F4D0C600CC301D /* Resources */,
 				D37EEE3686FDC86A6FA0CA52 /* [CP] Embed Pods Frameworks */,
+				D59AD5E26F5330DD4D8093B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,6 +258,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKit Firebase Auth/Pods-UIKit Firebase Auth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D59AD5E26F5330DD4D8093B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKit Firebase Auth/Pods-UIKit Firebase Auth-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKit Firebase Auth/Pods-UIKit Firebase Auth-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKit Firebase Auth/Pods-UIKit Firebase Auth-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
