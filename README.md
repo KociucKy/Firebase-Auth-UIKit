@@ -24,7 +24,7 @@ This is my approach to create an app with authentication provided by Firebase. I
 
 
 ### Screenshots
-<img src="Image/Screenshots.png">
+<img src="Images/Screenshots.png">
 <br>
 <br>
 <br>
